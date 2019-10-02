@@ -16,7 +16,7 @@ body {margin:0;font-family:Arial}
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #dd587c;
   color: white;
 }
 
@@ -59,12 +59,12 @@ body {margin:0;font-family:Arial}
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  background-color: #dd587c;
+  color: b80434;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #b80434;
   color: black;
 }
 

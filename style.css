@@ -7,7 +7,7 @@ body, ul, li, h1, h2, a{
     font-size: 18px;
   }
   header{
-    background-color: #ef4b4b;
+    background-color: #b80434;
     padding: 20px 0;
     text-align: center;
     position: relative;
@@ -38,7 +38,7 @@ body, ul, li, h1, h2, a{
     color: white;
     padding: 30px;
     font-size: 60px;
-    color: #ff0000;
+    color: #b80434;
     position: absolute;
     left: 0;
     top: 30%;
