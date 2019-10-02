@@ -127,44 +127,20 @@
         </h1>
     </header>
    
-    <div class="topnav" id="myTopnav" >
-        <a href="#home" class="active">Home</a>
-        <a href="#news">About Us</a>
-  
-        <div class="dropdown">
-            <button class="dropbtn">Department 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Basic Science</a>
-              <a href="#">CS</a>
-              <a href="#">EC</a>
-              <a href="#">CIV</a>
-              <a href="#">ME</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">Facilities 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Facility 1</a>
-              <a href="#">Facility 2</a>
-              <a href="#">Facility 3</a>
-            </div>
-          </div> 
-          <div class="dropdown">
-            <button class="dropbtn">College Insights
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Upcoming Events</a>
-              <a href="#">News</a>
-              <a href="#">Placements</a>
-            </div>
-          </div>
-        <a href="#about">Contact Us</a>
-      </div>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Dropdown
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  </div> 
+</div>
     <section class="banner">
         <img src="/img/s.jpg" alt="welcome banner">
         <!-- <div class="welcome">
@@ -185,14 +161,21 @@
     </main>
 
 <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
     }
+  }
+}
     </script>
 
 <footer>
