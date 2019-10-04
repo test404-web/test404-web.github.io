@@ -5,7 +5,7 @@ html,body{
   font-family:  'poppins',sans-serif;
   color: #222;
 }
-
+/* header images */
 .lo{
   padding-top: 0%;
   padding-left: 2%;
@@ -16,6 +16,7 @@ html,body{
   padding-right: 2%;
   
 }
+/* header text */
 header{
   background-color: #333;
   padding: 20px 0;
@@ -37,26 +38,13 @@ header h1{
   /* border-radius: 36px; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/* paragraph start */
 .und{
   text-decoration: underline;
   margin-left: 1em;
 }
-/* image text */
-.span4 img {
-  margin-right: 10px;
-}
-.span4 .img-left {
-  float: left;
-}
-.span4 .img-right {
-  float: right;
-}
 
-
-
-
-
-
+/* navbar */
 .navbar{
   padding: 0.rem;
 }
@@ -66,7 +54,7 @@ header h1{
 .nav-link{
   font-size: 1.1em !important;
 }
-
+/* carousel */
 .carousel-caption{
   position: absolute;
   top: 50%;
