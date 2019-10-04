@@ -6,7 +6,16 @@ html,body{
   color: #222;
 }
 
+.lo{
+  padding-top: 0%;
+  padding-left: 2%;
 
+}
+.lol{
+  padding-top: 0%;
+  padding-right: 2%;
+  
+}
 header{
   background-color: #333;
   padding: 20px 0;
@@ -28,6 +37,25 @@ header h1{
   /* border-radius: 36px; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.und{
+  text-decoration: underline;
+  margin-left: 1em;
+}
+/* image text */
+.span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+}
+
+
+
+
+
 
 .navbar{
   padding: 0.rem;
@@ -58,6 +86,10 @@ header h1{
   text-shadow: 1px 1px 10px #000;
 }
 
+p.found::first-letter {
+  margin-left: 1em;
+  font-size: 200%;
+}
 footer{
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -109,6 +141,10 @@ footer p{
 
   }
 @media (max-width: 768px) {
+  header{
+    display: none;
+  }
+
   .carousel-caption{
     position: absolute;
     top: 50%;
@@ -127,6 +163,7 @@ footer p{
     font-weight: 300;
     text-shadow: 1px 1px 10px #000;
   }
+
 }
 @media screen and (max-width: 560px) {
   header{
