@@ -38,10 +38,9 @@ header h1{
   /* border-radius: 36px; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/* paragraph start */
+/* underline */
 .und{
   text-decoration: underline;
-  margin-left: 1em;
 }
 
 /* navbar */
